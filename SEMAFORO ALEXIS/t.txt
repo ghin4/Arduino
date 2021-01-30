@@ -1,0 +1,184 @@
+int a=0;
+int led1=13;
+ int led2=12;
+ int led3=11;
+ int led4=10;
+ int led5=9;
+ int led6=8;
+ int led7=7;
+
+void setup() {
+  pinMode(13, OUTPUT); 
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(6, INPUT);
+  pinMode(5, OUTPUT);
+  pinMode(4,OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(1, OUTPUT);
+  pinMode(0, OUTPUT);
+
+}
+
+void loop() {
+   
+   if (digitalRead(6) == HIGH)
+   {
+   digitalWrite (5, LOW);
+   digitalWrite (4,HIGH);
+   delay (1000);
+   digitalWrite (4,LOW);
+   digitalWrite(3,HIGH);
+   digitalWrite(1, HIGH);
+   digitalWrite(0, LOW);
+   
+digitalWrite (led1,HIGH);
+   digitalWrite (led2,HIGH);
+   digitalWrite (led3,HIGH);
+   digitalWrite (led6,HIGH);
+   digitalWrite (led7,HIGH);
+   delay (500);
+   digitalWrite (led1, LOW);
+   digitalWrite (led2, LOW);
+   digitalWrite (led3, LOW);
+   digitalWrite (led6, LOW);
+   digitalWrite (led7, LOW);
+   delay (500);
+
+digitalWrite (led1,HIGH);
+   digitalWrite (led2,HIGH);
+   digitalWrite (led3,HIGH);
+   digitalWrite (led4,HIGH);
+   digitalWrite (led5,HIGH);
+   digitalWrite (led6,HIGH);
+   digitalWrite (led7,HIGH);
+   delay (500);
+   digitalWrite (led1, LOW);
+   digitalWrite (led2, LOW);
+   digitalWrite (led3, LOW);
+   digitalWrite (led4, LOW);
+   digitalWrite (led5, LOW);
+   digitalWrite (led6, LOW);
+   digitalWrite (led7, LOW);
+   delay (500);
+
+digitalWrite (led1,HIGH);
+   digitalWrite (led2,HIGH);
+   digitalWrite (led3,HIGH);
+   delay (500);
+   digitalWrite (led1, LOW);
+   digitalWrite (led2, LOW);
+   digitalWrite (led3, LOW);
+   delay (500);
+
+   digitalWrite (led1,HIGH);
+   digitalWrite (led3,HIGH);
+   digitalWrite (led4,HIGH);
+   digitalWrite (led5,HIGH);
+   digitalWrite (led6,HIGH);
+   digitalWrite (led7,HIGH);
+   delay (500);
+   digitalWrite (led1, LOW);
+   digitalWrite (led3, LOW);
+   digitalWrite (led4, LOW);
+   digitalWrite (led5, LOW);
+   digitalWrite (led6, LOW);
+   digitalWrite (led7, LOW);
+   delay (500);
+
+ digitalWrite (led1,HIGH);
+   digitalWrite (led3,HIGH);
+   digitalWrite (led4,HIGH);
+   digitalWrite (led6,HIGH);
+   digitalWrite (led7,HIGH);
+   delay (500);
+   digitalWrite (led1, LOW);
+   digitalWrite (led3, LOW);
+   digitalWrite (led4, LOW);
+   digitalWrite (led6, LOW);
+   digitalWrite (led7, LOW);
+   delay (500);  
+
+
+   digitalWrite (led2,HIGH);
+   digitalWrite (led3,HIGH);
+   digitalWrite (led6,HIGH);
+   digitalWrite (led7,HIGH);
+   delay (500);
+   digitalWrite (led2, LOW);
+   digitalWrite (led3, LOW);
+   digitalWrite (led6, LOW);
+   digitalWrite (led7, LOW);
+   delay (500);
+
+   digitalWrite (led1,HIGH);
+   digitalWrite (led2,HIGH);
+   digitalWrite (led3,HIGH);
+   digitalWrite (led4,HIGH);
+   digitalWrite (led7,HIGH);
+   delay (500);
+   digitalWrite (led1, LOW);
+   digitalWrite (led2, LOW);
+   digitalWrite (led3, LOW);
+   digitalWrite (led4, LOW);
+   digitalWrite (led7, LOW);
+   delay (500);
+
+   digitalWrite (led1,HIGH);
+   digitalWrite (led2,HIGH);
+   digitalWrite (led7,HIGH);
+   digitalWrite (led4,HIGH);
+   digitalWrite (led5,HIGH);
+   delay (500);
+   digitalWrite (led1, LOW);
+   digitalWrite (led2, LOW);
+   digitalWrite (led7, LOW);
+   digitalWrite (led4, LOW);
+   digitalWrite (led5, LOW);
+   delay (500);
+
+   digitalWrite (led2,HIGH);
+   digitalWrite (led3,HIGH);
+   delay (500);
+   digitalWrite (led2, LOW);
+   digitalWrite (led3, LOW);
+   delay (500);
+
+
+   digitalWrite (led1,HIGH);
+   digitalWrite (led2,HIGH);
+   digitalWrite (led3,HIGH);
+   digitalWrite (led4,HIGH);
+   digitalWrite (led5,HIGH);
+   digitalWrite (led6,HIGH); 
+   delay (500);
+   digitalWrite (led1, LOW);
+   digitalWrite (led2, LOW);
+   digitalWrite (led3, LOW);
+   digitalWrite (led4, LOW);
+   digitalWrite (led5, LOW);
+   digitalWrite (led6, LOW);
+   delay (500);
+
+   digitalWrite(3,HIGH);
+   digitalWrite(2, HIGH);
+   digitalWrite(1,LOW);
+   delay(500);
+   digitalWrite(2, LOW);
+    }
+   else
+   {
+
+    digitalWrite(1,LOW);
+    digitalWrite (5, HIGH);
+    digitalWrite (0, HIGH);
+    digitalWrite (3, LOW);
+    
+   }
+         
+}

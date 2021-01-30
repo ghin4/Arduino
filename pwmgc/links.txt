@@ -1,0 +1,3 @@
+https://www.arduino.cc/en/Tutorial/PWM
+https://playground.arduino.cc/ArduinoNotebookTraduccion/Appendix3
+https://aprendiendoarduino.wordpress.com/category/pwm/
